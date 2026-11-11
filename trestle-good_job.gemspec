@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "trestle",      "~> 0.8"
-  spec.add_dependency "trestle-auth", "~> 0.2", ">= 0.2.3"
+  spec.add_dependency "trestle",      "~> 0.10.1"
+  spec.add_dependency "trestle-auth", "~> 0.5.0"
   spec.add_dependency "good_job", ">= 2.0"
 end
